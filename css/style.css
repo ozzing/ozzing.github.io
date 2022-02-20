@@ -8,6 +8,13 @@ body{
     display: none;
 }
 
+#login-input{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt lightgrey;
+    outline: none;
+}
+
 #weather{
     text-align:right;
 }
