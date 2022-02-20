@@ -1,0 +1,94 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    background-size:cover;
+}
+
+.hidden{
+    display: none;
+}
+
+#weather{
+    text-align:right;
+}
+
+#above{
+    padding:80px;
+}
+
+#clock{
+    margin: 5px;
+    font-size:150px;
+    text-align:center; 
+    text-shadow: 2px 2px lightgray;
+}
+
+#greeting{
+    text-align:center;
+}
+
+nav{
+    float:right;
+}
+main{
+    float:left;
+}
+#toggle{
+    text-align:right;
+}
+.toggle-button{
+    cursor:pointer;
+    font-weight:bold;
+}
+#toggle-button{
+    display: none;
+}
+#toggle-content {
+    height:0;
+    margin:0px;
+    overflow:hidden;
+    position:absolute;
+}
+#todo-input{    
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt lightgrey;
+    outline: none;
+}
+#toggle-button:checked + #toggle-content {
+    height:auto;
+    width:300px;
+    position:relative;
+    background-color:rgba(0, 0, 0, 0.25);
+    border-top:0;
+    border-radius:10px;
+    padding:10px;
+}
+
+#quote{
+    margin-top:50px;
+    margin-bottom:20px;
+    text-align:center;
+}
+#author{
+    font-size:xx-small;
+}
+
+#todo-list{
+    margin:5px;
+    list-style:none;
+}
+li{
+    padding:2px;
+    font-size:small;
+}
+.list-button{
+    margin-left:10px;
+    background:transparent;
+    border:transparent;
+}
+
+
+img{
+    width:10vh;
+}
